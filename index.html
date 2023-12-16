@@ -1,121 +1,920 @@
 <!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>Portfolio site template</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="script.js"></script>
-  </head>
-    <body>
-	  
-        <div class="container">
-	  
-		<!--────────────────Header───────────────-->
-	<header>
-		<a class="logo" href="#home">
-              <img src="https://newsletter-images--timmy-i-chen.repl.co/logo-light.png" alt="repl logo" />
-		</a>
-		<nav>	
-		 <ul class="nav-bar"><div class="bg"></div>
-			<li><a class="nav-link active" href="#home">Home</a></li>
-			<li><a class="nav-link" href="#projects">Projects</a></li>
-			<li><a class="nav-link" href="#contact">Contact</a></li>
-		 </ul>
-			
-			<div class="hamburger">
-				<div class="line1"></div>
-            <div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-		</nav>
-	</header>
-	<main>
-		<!--─────────────────Home────────────────-->
-	  <div id="home">
-		 <div class="filter"></div>
-		 <section class="intro">
-		  <h3>Your Name.<hr></h3>
-		  <p>Short Description.</p>
-		  <p>Something more about yourself.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-			  
-		  <!--────social media links─────-->
-			 
-		  <div class="social-media">
-			  <a href="#" target="_blank"><i class='fab fa-codepen'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-twitter'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-github'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-			  <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-		    </div>
-			 
-		 </section> 
-	  </div>  
-		
-	  <!--───────────────Projects───────────────-->
-	  <div id="projects"> 
-		 <h3>My Projects.<hr></h3>
-		  <p>Here are some of my projects, you may like.</p>
-		  <div class="work-box">
-		  <div class="work">
-		<!--───────────────card───────────────-->
-			<div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80">
-			    <a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div>
-            <div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div>
-            <div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div> 
-			<div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1535556116002-6281ff3e9f36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=781&q=80">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div> 	  
-		  </div>
-		  </div>
-	  </div>
-		 
-		<!--──────────────Contact────────────────-->
-	  <div id="contact">
-		  <!--────social media links─────-->
-		   <h3>Contact.<hr></h3>
-		   <p>Feel free to contact me on my social media.</p>
-		    <div class="social-media">
-			  <a href="#" target="_blank"><i class='fab fa-codepen'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-twitter'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-github'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-			  <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-		    </div>
-		  </div>
+<html lang="en">
 
-	</main>
-	  <footer class="copyright">© 2020 
-		  <a href="https://repl.it/@lilykhan" target="_blank"> Lilykhan.</a>
-     </footer>
-	  
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Personal Portfolio Website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Personal
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html"><img src="assets/img/me.jpg" class="img-fluid" alt="" width="70" height="70"> Pradumya
+          Banke</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <h2>I'm a passionate <span>software developer</span> from indore</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home <i class="bi bi-house-heart"
+                style="color: #842eac80;"></i></a></li>
+          <li><a class="nav-link" href="#about">About <i class="bi bi-file-person" style="color: #1da9e0da;"></i></a>
+          </li>
+          <li><a class="nav-link" href="#resume">Resume <i class="bi bi-file-earmark-person"
+                style="color: #0c678bc0;"></i></a></li>
+          <li><a class="nav-link" href="#services">Services <i class="bi bi-person-heart"
+                style="color: #32d684c0;"></i></a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio <i class="bi bi-sign-no-parking-fill"
+                style="color: #d8a945ef;"></i></a></li>
+          <li><a class="nav-link" href="#contact">Contact <i class="bi bi-person-rolodex"
+                style="color: #d11919c0;"></i></a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+        <a href="https://twitter.com/Pradumgurjjar" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://join.skype.com/invite/xuzu8BAqHTxT" class="google-plus"><i class="bi bi-skype"></i></a>
+          <a href="https://github.com/pradumyabanke" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://instagram.com/pradum_gurjjar?igshid=Yjk4NWM2ZWVkMw==" class="instagram"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/pradum-banke-a523a9217/" class="linkedin"><i
+            class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2><i class="bi bi-file-person" style="color: #361a3880;"></i> About</h2>
+        <p>Learn more about me</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/me.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>[Software Developer] <i class="bi bi-code-square" style="color: #d41e1e9a;"></i></h3>
+          <p class="fst-italic">
+            Hi, I'm Pradumya Banke, a recent graduate in Software Engineering with a passion for developing innovative
+            solutions that solve real-world problems. During my academic years, I gained experience in several
+            programming languages such as Node.js, Python, and HTML, CSS, Django, MongoDb, and in Database MySQl and
+            worked on projects ranging from Software development to Application.
+            As a software developer fresher, I am excited to begin my career in the industry and am eager to work with a
+            team of experienced developers to learn and grow as a professional. I am confident that my strong technical
+            skills and enthusiasm for software development will make me a valuable asset to any team.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>05 Nov 1999</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                  <span>https://replit.com/@PradumGurjar</span>
+                </li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+917999-787-417</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Indore, INDIA</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master's</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>pradumgurjar2@gmail.com</span>
+                </li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            Throughout my career, I have gained expertise in various programming languages, including , Python, and
+            Node.js . I have also worked with various software development frameworks, such as HTML, Express.js, and
+            CSS, among others.
+            I am an analytical thinker and a problem-solver at heart, with a keen eye for detail and a desire for
+            excellence. I am constantly striving to stay up-to-date with the latest industry trends and technologies,
+            allowing me to deliver innovative and cutting-edge solutions to my clients.
+            In addition to my technical skills, I possess excellent communication skills, both written and verbal, and I
+            am able to work effectively as part of a team. I enjoy collaborating with my colleagues to brainstorm ideas,
+            share knowledge, and find the best solutions to complex problems.
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Counts ======= -->
+    <div class="counts container">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-headset"></i>
+            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-award"></i>
+            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Awards</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- End Counts -->
+
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2><i class="bi bi-card-heading" style="color: #32d684c0;"></i> Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">HTML <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Django <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">CSS <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">JavaScript <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Python <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="progress">
+            <span class="skill">Express.js <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Node.js <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">MySQL <i class="val">55%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2><i class="bi bi-clipboard-heart" style="color: #1b3ccf9c;"></i> Interests Skills</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="bi bi-filetype-py" style="color: #ffbb2c;"></i>
+            <h3>Python</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <!-- <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i> -->
+            <i class="bi bi-filetype-json" style="color: #5578ff;"></i>
+            <h3>Node.js</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <!-- <i class="ri-calendar-todo-line" style="color: #e80368;"></i> -->
+            <i class="bi bi-filetype-html" style="color: #e80368;"></i>
+            <h3>HTML</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <!-- <i class="ri-paint-brush-line" style="color: #e361ff;"></i> -->
+            <i class="bi bi-filetype-css" style="color: #e361ff;"></i>
+            <h3>CSS</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <!-- <i class="ri-database-2-line" style="color: #47aeff;"></i> -->
+            <i class="bi bi-filetype-js" style="color: #47aeff;"></i>
+            <h3>JavaScript</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <!-- <i class="ri-gradienter-line" style="color: #ffa76e;"></i> -->
+            <i class="bi bi-database-fill-add" style="color: #ffa76e;"></i>
+            <h3>MySQL</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <!-- <i class="ri-file-list-3-line" style="color: #11dbcf;"></i> -->
+            <i class="bi bi-database-gear" style="color: #11dbcf;"></i>
+            <h3>Django</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <!-- <i class="ri-price-tag-2-line" style="color: #4233ff;"></i> -->
+            <i class="bi bi-database-fill" style="color: #4233ff;"></i>
+            <h3>MongoDB</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <!-- <i class="ri-anchor-line" style="color: #b2904f;"></i> -->
+            <i class="bi bi-filetype-json" style="color: #b2904f;"></i>
+            <h3>Express.js</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="bi bi-music-note-list" style="color: #b20969;"></i>
+            <h3>Music</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <!-- <i class="ri-base-station-line" style="color: #ff5828;"></i> -->
+            <i class="bi bi-dice-6-fill" style="color: #ff5828;"></i>
+            <h3>Playing Games</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <!-- <i class="ri-fingerprint-line" style="color: #29cc61;"></i> -->
+            <i class="bi bi-book" style="color: #29cc61;"></i>
+            <h3>Reading Newspaper</h3>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Interests -->
+
+    <!-- ======= Testimonials ======= -->
+    <div class="testimonials container">
+
+      <div class="section-title">
+        <h2><i class="bi bi-badge-tm" style="color: #c227e9;"></i> Testimonials</h2>
+      </div>
+
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                As the founder of the company, the CEO typically has a strong vision for the organization and a deep
+                understanding of its products or services. The CEO is responsible for developing and implementing
+                strategic plan for the company, setting goals, and determining the resources necessary to achieve those
+                goals.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Shivam Joshi</h3>
+              <h4>Ceo &amp; Founder</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                A designer is a professional who creates visual or functional concepts for a variety of products or
+                services. Designers use their creativity and problem-solving skills to develop ideas that meet the needs
+                and preferences of their clients or target audience. There are many different types of designers,
+                including graphic designers, fashion designers, interior designers, industrial designers, web designers,
+                and many more.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Shivani Gurjar</h3>
+              <h4>Designer</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                A store owner is an individual or group of individuals who own and operate a retail establishment. Store
+                owners are responsible for the day-to-day operations of their store, including managing inventory,
+                supervising employees, setting prices, and providing customer service.Store owners can sell a variety of
+                products, including clothing, groceries, electronics, books, and more.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Anamika Singh</h3>
+              <h4>Store Owner</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                A freelancer is a self-employed individual who offers services to clients on a project-by-project basis.
+                Freelancers are not employees of a company, but rather work independently, often from their own home or
+                office. Freelancers may offer a wide variety of services, including writing, design, programming,
+                marketing, consulting, and more.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>Sachin Gurjar</h3>
+              <h4>Freelancer</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                An entrepreneur is an individual who starts and operates a new business venture, often with the goal of
+                making a profit. Entrepreneurs are driven by a desire to innovate, take risks, and create something new
+                that has value in the marketplace.Entrepreneurs must be skilled in identifying market opportunities and
+                developing a business plan that addresses customer needs and preferences
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+              <h3>Prince Gurjar </h3>
+              <h4>Entrepreneur</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="owl-carousel testimonials-carousel">
+
+      </div>
+
+    </div><!-- End Testimonials  -->
+
+  </section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2><i class="bi bi-file-earmark-person" style="color: #b93c81c0;"></i> Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title"><i class="bi bi-type-strikethrough" style="color: #73d621b6;"></i> Summary</h3>
+          <div class="resume-item pb-0">
+            <h4>Pradumya Banke</h4>
+            <p><em>As a software developer, it's important to stay current with the latest technologies, programming
+                languages, and industry trends. Continuously honing your skills and knowledge through ongoing learning,
+                experimentation, and collaboration with other developers is crucial for staying ahead of the curve. In
+                addition to technical skills, soft skills such as communication, problem-solving, and teamwork are also
+                essential for success as a software developer. Effective communication with colleagues and clients can
+                help ensure that your projects meet their needs, while problem-solving and collaboration skills can help
+                you navigate complex technical challenges. Remember that software development is a collaborative effort,
+                and being a team player can help you achieve great things in your career.</em></p>
+            <p>
+            <ul>
+              <li>Indore India 452010, M.P</li>
+              <li>(+91)7999-787-417/li>
+              <li>pradumgurjar2@gmail.com</li>
+            </ul>
+            </p>
+          </div>
+
+          <h3 class="resume-title"><i class="bi bi-book-half" style="color: #1b3ccf9c;"></i> Education</h3>
+          <div class="resume-item">
+            <h4>Master of Computer Application &amp; Computer Application</h4>
+            <h5>2020 - 2022</h5>
+            <p><em>Birla Institute of Technology, Mesra, Ranchi</em></p>
+            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui
+              ut dignissimos deleniti nerada porti sand markend</p>
+            <a href="https://www.bitmesra.ac.in/" target="_blank"><i class="bi bi-browser-edge"
+                style="color: #3bc8ebc9;"></i> Visit University Website</a>
+          </div>
+          <div class="resume-item">
+            <h4>Bachelor of Computer Application &amp; Computer Application</h4>
+            <h5>2017 - 2020</h5>
+            <p><em>Barkatullah University Bhopal</em></p>
+            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius
+              unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila
+            </p>
+            <a href="https://www.bubhopal.ac.in/" target="_blank"><i class="bi bi-browser-edge"
+                style="color: #3bc8ebc9;"></i> Visit University Website</a>
+          </div>
+          <div class="resume-item">
+            <h4>Madhya Pradesh Board of Secondary Education &amp; (12th)</h4>
+            <h5>2017 - 2020</h5>
+            <p><em>Madhya Pradesh Board of Secondary Education</em></p>
+            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius
+              unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila
+            </p>
+            <a href="http://mpbse.nic.in/" target="_blank"><i class="bi bi-browser-edge" style="color: #3bc8ebc9;"></i>
+              Visit University Website</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title"><i class="bi bi-file-earmark-ppt-fill" style="color: #e7881bb6;"></i> Professional
+            Experience</h3>
+          <div class="resume-item">
+            <h4>Clumpcoder</h4>
+            <h5>2023 - Present</h5>
+            <p><em>Developer, INDIA, NY </em></p>
+            <p>
+            <ul>
+              <li>Lead in the design, development, and implementation of the graphic, layout, and production
+                communication materials</li>
+              <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.
+              </li>
+              <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
+                design</li>
+              <li>Oversee the efficient use of production project budgets ranging from ₹2,000 - ₹25,000</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Codebetter</h4>
+            <h5>2020 - 2022</h5>
+            <p><em>Python Developer, INDIA, NY</em></p>
+            <p>
+            <ul>
+              <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                advertisements).</li>
+              <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+              <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+              <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2><i class="bi bi-person-heart" style="color: #32d684c0;"></i> Services</h2>
+        <p>My Services</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4><a href="https://cards.pradumgurjar.repl.co/">Flip Card with HTML, Css, JavaScript</a></h4>
+            <p>A flip card project in HTML, CSS, and JS is a fun and interactive way to display information on a web
+              page. The project involves creating a card element that can be flipped over to reveal additional content.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="https://moviesapp.pradumgurjar.repl.co/">Movies App with HTML, Css, JavaScript</a></h4>
+            <p>A Movies App built with HTML, CSS, and JavaScript allows users to browse and search for movies, view
+              information about each movie, and watch trailers or clips.
+              The app typically includes a search bar and a list of movie titles. Users can enter a search query in the
+              search bar to filter the list of movies based on title or other criteria. When a user clicks on a movie
+              title, they are taken to a detail page that displays information about the movie, such as its title,
+              release date, cast, and rating.
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <h4><a href="https://coffeeweb.pradumgurjar.repl.co/#home">Coffee Website with HTML, Css, JavaScript</a>
+            </h4>
+            <p>A Coffee Website created with HTML, CSS, and JavaScript is a web page that showcases information about
+              coffee, coffee shops, and related products. The website can be designed to include a variety of features
+              such as a homepage, menu page, contact page, and about us page.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4><a href="">Nemo Enim</a></h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-slideshow"></i></div>
+            <h4><a href="">Dele cardo</a></h4>
+            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-arch"></i></div>
+            <h4><a href="">Divera don</a></h4>
+            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2><i class="bi bi-sign-no-parking-fill" style="color: #d8a945ef;"></i> Portfolio</h2>
+        <p>My Works</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-card">Card</li>
+            <li data-filter=".filter-web">Web</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2><i class="bi bi-person-rolodex" style="color: #32d684c0;"></i> Contact</h2>
+        <p>Contact Me</p>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>My Address</h3>
+            <p>Indore Vijay Nagar, 452010.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="https://twitter.com/Pradumgurjjar" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://github.com/pradumyabanke" class="github"><i class="bi bi-github"></i></a>
+              <a href="https://instagram.com/pradum_gurjjar?igshid=Yjk4NWM2ZWVkMw==" class="instagram"><i
+                  class="bi bi-instagram"></i></a>
+              <a href="https://join.skype.com/invite/xuzu8BAqHTxT" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="https://www.linkedin.com/in/pradum-banke-a523a9217/" class="linkedin"><i
+                  class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <p>pradumgurjar2@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call Me</h3>
+            <p>+91-7999-787-417</p>
+          </div>
+        </div>
+      </div>
+
+      <form action="/forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+        <div class="row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+      </form>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+    <img src="assets/img/favicon.png" class="" alt="">Designed by <a
+      href="https://replit.com/@PradumGurjar">PradumGurjar</a>
   </div>
-  </body>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
